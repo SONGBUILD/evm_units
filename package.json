@@ -1,0 +1,14 @@
+{
+  "name": "evm-units",
+  "version": "1.0.0",
+  "description": "EIP-55 checksums and exact wei formatting. No RPC, no wallet.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Song Xiangrong",
+  "license": "MIT",
+  "keywords": ["ethereum", "eip-55", "wei", "web3"]
+}
