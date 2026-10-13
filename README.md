@@ -12,7 +12,7 @@ parseUnits("1.5", 18);   // 1500000000000000000n
 formatUnits(1n, 18);     // "0.000000000000000001"
 ```
 
-`parseUnits` rejects extra decimal places instead of rounding. The checksum follows EIP-55.
+`parseUnits` rejects extra decimal places instead of rounding. `parseUnits("1.234", 2)` throws. `isChecksumAddress` is false for an all-lowercase address. The checksum follows EIP-55.
 
 ```bash
 npm test
